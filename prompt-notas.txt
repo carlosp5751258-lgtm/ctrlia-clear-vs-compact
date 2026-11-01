@@ -1,0 +1,1 @@
+Antes de que compactemos, escribe en NOTAS.md: objetivo, decisiones tomadas (con el porqué), errores encontrados con su texto exacto, archivos tocados y próximos pasos. No cambies código.

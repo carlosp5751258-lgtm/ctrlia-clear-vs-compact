@@ -1,0 +1,1 @@
+Before we compact, write to NOTES.md: goal, decisions made (with the reason), errors found with their exact text, files touched and next steps. Don't change any code.
