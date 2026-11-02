@@ -1,6 +1,6 @@
 # /clear vs /compact in Claude Code, and idle compaction
 
-[Leer en español](README.md)
+[Leer en español](README.md) · The Spanish version lives in the repo root and in [README.md](README.md); the English files are in `en/`.
 
 The files from the Ctrl+IA recipe about context in Claude Code: compaction instructions for your `CLAUDE.md`, settings to turn off or tune idle compaction, the prompt to save the state to `NOTES.md` and a command cheat sheet.
 
@@ -13,21 +13,21 @@ The full recipe (when to `/clear` and when to `/compact`, what survives a compac
 
 | File | What for |
 | --- | --- |
-| `compact-instructions.en.md` | "# Compact instructions" section for your `CLAUDE.md` (Spanish: `compact-instructions.md`) |
-| `settings-sin-compactacion-en-reposo.json` | `"idleCompaction": false` for `~/.claude/settings.json` (2.1.290 or later) |
-| `settings-umbral-150k.json` | Keeps idle compaction on, but from 150 k tokens |
-| `prompt-notes.en.txt` | Prompt so Claude saves the state to `NOTES.md` before compacting (Spanish: `prompt-notas.txt`) |
-| `chuleta.en.md` | Commands and rules on one page (Spanish: `chuleta.md`) |
+| `en/compact-instructions.md` | "# Compact instructions" section for your `CLAUDE.md` |
+| `en/settings-no-idle-compaction.json` | `"idleCompaction": false` for `~/.claude/settings.json` (2.1.290 or later) |
+| `en/settings-threshold-150k.json` | Keeps idle compaction on, but from 150 k tokens |
+| `en/prompt-notes.txt` | Prompt so Claude saves the state to `NOTES.md` before compacting |
+| `en/cheatsheet.md` | Commands and rules on one page |
 
 ## How to use it
 
 ```bash
 git clone https://github.com/carlosp5751258-lgtm/ctrlia-clear-vs-compact.git
 cd ctrlia-clear-vs-compact
-cat compact-instructions.en.md >> /path/to/your-project/CLAUDE.md
+cat en/compact-instructions.md >> /path/to/your-project/CLAUDE.md
 ```
 
-For the settings, copy the key from the `.json` you choose into your `~/.claude/settings.json` (merge it with what you already have; don't overwrite it). Use only one of the two: either turn it off or change its threshold. You can also turn it off from the session with `/config` > Idle compaction (2.1.302 or later).
+For the settings, copy the key from the `en/settings-*.json` you choose into your `~/.claude/settings.json` (merge it with what you already have; don't overwrite it). Use only one of the two: either turn it off or change its threshold. You can also turn it off from the session with `/config` > Idle compaction (2.1.302 or later).
 
 ## What was tested
 
@@ -38,4 +38,4 @@ For the settings, copy the key from the `.json` you choose into your `~/.claude/
 MIT. See [LICENSE](LICENSE).
 
 ---
-Part of **[Ctrl+IA](https://ctrlia.dev/)**: Claude Code like a pro, in Spanish. Made by Carlos P.
+Part of **[Ctrl+IA](https://ctrlia.dev/)**: Claude Code like a pro. Made by Carlos P.

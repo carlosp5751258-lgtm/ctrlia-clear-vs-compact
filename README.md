@@ -2,6 +2,8 @@
 
 [Read in English](README.en.md)
 
+English version: [README.en.md](README.en.md) (archivos en `en/`).
+
 Los archivos de la receta de Ctrl+IA sobre el contexto en Claude Code: instrucciones de compactación para tu `CLAUDE.md`, ajustes para apagar o ajustar la compactación en reposo (idle compaction), el prompt para guardar el estado en `NOTAS.md` y una chuleta de comandos.
 
 La receta completa (cuándo `/clear` y cuándo `/compact`, qué sobrevive a una compactación, `/rewind`, `/autocompact` y la compactación en reposo):
@@ -13,11 +15,11 @@ La receta completa (cuándo `/clear` y cuándo `/compact`, qué sobrevive a una 
 
 | Archivo | Para qué |
 | --- | --- |
-| `compact-instructions.md` | Sección «# Compact instructions» para tu `CLAUDE.md` (en inglés: `compact-instructions.en.md`) |
+| `compact-instructions.md` | Sección «# Compact instructions» para tu `CLAUDE.md` (en inglés: `en/compact-instructions.md`) |
 | `settings-sin-compactacion-en-reposo.json` | `"idleCompaction": false` para `~/.claude/settings.json` (2.1.290 o posterior) |
 | `settings-umbral-150k.json` | Deja la compactación en reposo activada, pero desde 150 k tokens |
-| `prompt-notas.txt` | Prompt para que Claude guarde el estado en `NOTAS.md` antes de compactar (en inglés: `prompt-notes.en.txt`) |
-| `chuleta.md` | Comandos y reglas en una página (en inglés: `chuleta.en.md`) |
+| `prompt-notas.txt` | Prompt para que Claude guarde el estado en `NOTAS.md` antes de compactar (en inglés: `en/prompt-notes.txt`) |
+| `chuleta.md` | Comandos y reglas en una página (en inglés: `en/cheatsheet.md`) |
 
 ## Cómo usarlo
 

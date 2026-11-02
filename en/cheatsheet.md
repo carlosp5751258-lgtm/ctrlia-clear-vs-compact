@@ -13,4 +13,4 @@
 - Task unrelated to what came before? `/clear`. Same task and the context is heavy? `/compact` with instructions.
 - Want to throw away a wrong path? `/rewind` to an earlier turn, better than compacting.
 - Compact at a natural break, not on a huge, cold session.
-- Before a big compaction or stepping away, save the state to `NOTES.md` (`prompt-notes.en.txt`).
+- Before a big compaction or stepping away, save the state to `NOTES.md` (`prompt-notes.txt`).
